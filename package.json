@@ -1,0 +1,16 @@
+{
+  "name": "iptvus4k",
+  "version": "1.0.0",
+  "description": "Best 4K IPTV USA Subscription - Premium IPTV USA Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
