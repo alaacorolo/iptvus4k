@@ -1,0 +1,7 @@
+# User-Agent rules for iptvus4k.shop
+User-agent: *
+Allow: /
+
+# Host & Sitemap definition
+Host: https://iptvus4k.shop
+Sitemap: https://iptvus4k.shop/sitemap.xml

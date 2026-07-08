@@ -16,7 +16,7 @@ if (!fs.existsSync(distAssetsDir)) {
 }
 
 // Copy primary static files
-const filesToCopy = ['index.html', 'style.css', 'script.js'];
+const filesToCopy = ['index.html', 'style.css', 'script.js', 'robots.txt', 'sitemap.xml', 'llms.txt'];
 filesToCopy.forEach(file => {
     const src = path.join(__dirname, file);
     const dest = path.join(distDir, file);
